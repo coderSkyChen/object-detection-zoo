@@ -54,5 +54,5 @@ PASCAL VOC 2007 (Train/Test: trainval/test,scale=600, ROI Align)
 |VGG-16|1|8|0.001|5|20|78.4|
 
 ## Demo
-![3](https://github.com/coderSkyChen/object-detection-zoo/raw/master/faster-rcnn-clearly/images/3_det.jpg)
-![5](https://github.com/coderSkyChen/object-detection-zoo/raw/master/faster-rcnn-clearly/images/5_det.jpg)
+ <img src="https://github.com/coderSkyChen/object-detection-zoo/raw/master/faster-rcnn-clearly/images/3_det.jpg" width = "300" alt="3" align=left />
+ <img src="https://github.com/coderSkyChen/object-detection-zoo/raw/master/faster-rcnn-clearly/images/5_det.jpg" width = "300" alt="5" align=left />
