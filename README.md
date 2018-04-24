@@ -49,9 +49,9 @@ CUDA_VISIBLE_DEVICES=0 python demo.py --net vgg16 --cuda --train_id 0.1 --model_
 
 PASCAL VOC 2007 (Train/Test: trainval/test,scale=600, ROI Align)
 
-|model|#GPUs|batch size|lr|lr_decay|max_epoch|mAP|
-|--------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VGG-16|1|8|0.001|5|20|78.4|
+|model|#GPUs|batch size|lr|lr_decay|max_epoch|mAP|detect time(w/o loading cost)|post processing:nms time|
+|--------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|VGG-16|1|8|0.001|5|20|78.4|0.48s|0.041s|
 
 ## Demo
  <img src="https://github.com/coderSkyChen/object-detection-zoo/raw/master/faster-rcnn-clearly/images/3_det.jpg" height  = "300" alt="3" align=left />
