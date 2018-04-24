@@ -49,7 +49,7 @@ CUDA_VISIBLE_DEVICES=0 python demo.py --net vgg16 --cuda --train_id 0.1 --model_
 
 PASCAL VOC 2007 (Train/Test: trainval/test,scale=600, ROI Align)
 
-|model|#GPUs|batch size|lr|lr_decay|max_epoch|mAP|detect time(w/o loading cost)|post processing:nms time|
+|model|#GPUs|batch size|lr|lr_decay|max_epoch|mAP|mean detect time per image(w/o loading cost)|mean post processing per image:nms time|
 |--------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |VGG-16|1|8|0.001|5|20|78.4|0.48s|0.041s|
 
